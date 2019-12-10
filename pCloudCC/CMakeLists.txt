@@ -5,7 +5,7 @@ project(pcloudcc)
 
 set(CMAKE_BUILD_TYPE Release)
 
-set(Boost_USE_STATIC_LIBS ON)
+#set(Boost_USE_STATIC_LIBS ON)
 set(Boost_USE_MULTITHREADED ON)
 unset(Boost_INCLUDE_DIR CACHE)
 unset(Boost_LIBRARY_DIRS CACHE)
